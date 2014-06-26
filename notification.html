@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Tell a friend</title>
+	<style>
+	body {
+		background-color: #EEEEEE;
+		margin: 2em;
+		font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+		line-height: 1.2; 
+	}
+	a {
+		color: #F45147;
+		text-decoration: none;
+	}
+	.content {
+		padding: 3em;
+		background-color: #FFFFFF;
+		border-radius: 10px;
+	}
+	.article-container {
+		padding: 10px 20px;
+		border: 1px solid #DDD;
+		border-radius: 15px;
+	}
+	.button {
+		padding: 10px 20px;
+		background-color: #F45147;
+		color: #FFFFFF;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+	.button:hover {
+		background-color: #333333;
+	}
+	</style>
+</head>
+<body>
+<div class="content">
+
+	<p style="margin-bottom:50px"><img src="{site_url}themes/site_themes/saudifashion/branding.png"></p>
+
+	<p><strong>Hello,</strong></p>
+
+	<p>{email} thought you would be interested in this from SaudiFashionMagazine.com:</p>
+
+	<div class="article-container">
+		<p><strong>{article_title}</strong></p>
+		<p><a href="{article_url}">{article_url}</a></p>
+	</div>
+
+	<p><strong>Comments:</strong> {tell_a_friend_message}</p>
+
+	<p><small style="font-size: 11px">Please note that the sender's email address has not been verified. This message was sent as an FYI by a user of SaudiFashionMagazine.com.</small></p>
+
+	<p style="margin-top:50px"><a href="{site_url}"><strong>{site_name}</strong></a></p>
+
+	<p style="font-size: 11px">For more stories, visit SaudiFashionMagazine.com: <a href="{site_url}">http://www.saudifashionmagazine.com</a></p>
+
+	<p style="font-size: 11px">Get the best Deals & Offers and before anybody else -- <a href="{site_url}/members-area">Sign up now!</a></p>
+</div>
+</body>
+</html>
